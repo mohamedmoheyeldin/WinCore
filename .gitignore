@@ -1,0 +1,5 @@
+# Ignore setup logs
+logs/
+downloads/
+*.log
+setup-log.txt

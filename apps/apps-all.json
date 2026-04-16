@@ -1,0 +1,136 @@
+{
+  "profile": "all",
+  "apps": [
+    {
+      "id": "Microsoft.VisualStudioCode"
+    },
+    {
+      "id": "Git.Git"
+    },
+    {
+      "id": "GitHub.cli"
+    },
+    {
+      "id": "GnuPG.GnuPG"
+    },
+    {
+      "id": "sharkdp.bat"
+    },
+    {
+      "id": "ajeetdsouza.zoxide"
+    },
+    {
+      "id": "OpenJS.NodeJS"
+    },
+    {
+      "id": "Oracle.JDK.26"
+    },
+    {
+      "id": "Python.Python.3.12"
+    },
+    {
+      "id": "Google.Chrome"
+    },
+    {
+      "id": "VideoLAN.VLC"
+    },
+    {
+      "id": "JanDeDobbeleer.OhMyPosh"
+    },
+    {
+      "id": "Google.GoogleDrive"
+    },
+    {
+      "id": "Guru3D.Afterburner"
+    },
+    {
+      "id": "Valve.Steam"
+    },
+    {
+      "id": "EpicGames.EpicGamesLauncher"
+    },
+    {
+      "id": "ElectronicArts.EADesktop"
+    },
+    {
+      "name": "Apple Music",
+      "id": "9PFHDD62MXS1",
+      "source": "msstore"
+    },
+    {
+      "name": "Poe Overlay II Standalone",
+      "type": "download-run",
+      "url": "https://link.poeoverlay.com/download-poe-overlay-ii-standalone",
+      "fileName": "poe-overlay-ii-standalone.exe",
+      "waitForExit": true
+    },
+    {
+      "name": "AMD Chipset Drivers (Latest)",
+      "type": "download-run",
+      "url": "https://drivers.amd.com/drivers/amd_chipset_software_8.02.18.557.exe",
+      "sourceUrls": [
+        "https://www.amd.com/en/support/downloads/drivers.html/chipsets/am5/x870.html",
+        "https://www.amd.com/en/support/downloads/drivers.html/chipsets/am5/x870e.html",
+        "https://www.amd.com/en/support/downloads/drivers.html/chipsets/am5.html"
+      ],
+      "urlPatterns": [
+        "https://drivers\\.amd\\.com/drivers/amd_chipset_software_[0-9.]+\\.exe",
+        "https://drivers\\.amd\\.com/drivers/[a-zA-Z0-9_\\-.]*chipset[a-zA-Z0-9_\\-.]*\\.exe",
+        "https://[a-zA-Z0-9.\\-]*amd\\.com/[a-zA-Z0-9/_\\-.]*chipset[a-zA-Z0-9_\\-.]*\\.exe"
+      ],
+      "allowedDomains": [
+        "drivers.amd.com",
+        "amd.com"
+      ],
+      "resolveLatest": true,
+      "fileName": "amd-chipset-latest.exe",
+      "waitForExit": true
+    },
+    {
+      "name": "NVIDIA App (Latest)",
+      "type": "download-run",
+      "url": "https://us.download.nvidia.com/nvapp/client/11.0.7.237/NVIDIA_app_v11.0.7.237.exe",
+      "sourceUrls": [
+        "https://www.nvidia.com/en-us/software/nvidia-app/",
+        "https://www.nvidia.com/en-us/geforce/geforce-experience/download/",
+        "https://www.nvidia.com/en-us/geforce/news/nvidia-app-download-and-features/"
+      ],
+      "urlPatterns": [
+        "https://(?:us|international|download)\\.download\\.nvidia\\.com/nvapp/client/[0-9.]+/NVIDIA_app_v[0-9.]+(?:_hf)?\\.exe",
+        "https://(?:us|international|download)\\.download\\.nvidia\\.com/[a-zA-Z0-9/_\\-.]*NVIDIA_app_v[0-9.]+(?:_hf)?\\.exe",
+        "https://[a-zA-Z0-9.\\-]*nvidia\\.com/[a-zA-Z0-9/_\\-.]*NVIDIA_app_v[0-9.]+(?:_hf)?\\.exe"
+      ],
+      "allowedDomains": [
+        "download.nvidia.com",
+        "us.download.nvidia.com",
+        "international.download.nvidia.com",
+        "nvidia.com"
+      ],
+      "resolveLatest": true,
+      "fileName": "nvidia-app-latest.exe",
+      "waitForExit": true
+    },
+    {
+      "name": "AMD Software: Adrenalin Edition (Latest)",
+      "type": "download-run",
+      "url": "https://drivers.amd.com/drivers/installer/25.30/whql/amd-software-adrenalin-edition-26.3.1-minimalsetup-260317_web.exe",
+      "sourceUrls": [
+        "https://www.amd.com/en/support/download/drivers.html",
+        "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7900-xtx.html",
+        "https://www.amd.com/en/support"
+      ],
+      "urlPatterns": [
+        "https://drivers\\.amd\\.com/drivers/installer/[0-9.]+/[a-zA-Z0-9_\\-]+/amd-software-adrenalin-edition-[0-9.\\-]+_web\\.exe",
+        "https://drivers\\.amd\\.com/drivers/installer/[0-9.]+/[a-zA-Z0-9_\\-]+/[a-zA-Z0-9_\\-.]*adrenalin[a-zA-Z0-9_\\-.]*\\.exe",
+        "https://[a-zA-Z0-9.\\-]*amd\\.com/[a-zA-Z0-9/_\\-.]*adrenalin[a-zA-Z0-9_\\-.]*\\.exe"
+      ],
+      "allowedDomains": [
+        "drivers.amd.com",
+        "amd.com"
+      ],
+      "resolveLatest": true,
+      "fileName": "amd-adrenalin-latest.exe",
+      "waitForExit": true
+    }
+  ]
+}
